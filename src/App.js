@@ -34,8 +34,8 @@ function App() {
 
             <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
               <img 
-                src="/dp.jpg" 
-                alt="A placeholder image of me" 
+                src="../public/dp.jpg" 
+                alt="profile picture" 
                 className="profile-photo" 
                 style={{ borderRadius: '50%', width: '200px', height: '200px' }} 
               />
