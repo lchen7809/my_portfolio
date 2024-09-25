@@ -34,7 +34,7 @@ function App() {
 
             <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
               <img 
-                src="../public/dp.jpg" 
+                src={`${process.env.PUBLIC_URL}/dp.jpg`} 
                 alt="profile picture" 
                 className="profile-photo" 
                 style={{ borderRadius: '50%', width: '200px', height: '200px' }} 
